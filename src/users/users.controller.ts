@@ -1,5 +1,6 @@
-import { Controller, ParseUUIDPipe } from '@nestjs/common';
+import { Controller } from '@nestjs/common';
 import { MessagePattern, Payload } from '@nestjs/microservices';
+
 import { UsersService } from './users.service';
 import { CreateUserDto } from './dto/create-user.dto';
 
